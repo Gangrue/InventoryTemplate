@@ -1,0 +1,42 @@
+function define_inventory_enums(){
+	#macro GRAB_DISTANCE 64
+
+	enum ITEMS {
+		EMPTY,
+		APPLE,
+		APPLESEED,
+		HOE,
+		WATERINGCAN,
+		SICKLE,
+		SIMPLEHAT,
+		SIMPLESHIRT,
+		SIMPLEPANTS,
+		SIMPLEBOOTS,
+		LENGTH
+	}
+
+	enum ITEM_PARAMETERS {
+		ID,
+		QTY,
+		NAME,
+		DESC,
+		ITEM_TYPE,
+		VALUE,
+		SCRIPT,
+		ATTRIBUTES,
+		LENGTH
+	}
+	
+	enum ITEM_TYPE {
+		FOOD,
+		SEED,
+		HOE,
+		WATERINGCAN,
+		WEAPON,
+		HEAD,
+		BODY,
+		LEGS,
+		FOOT,
+		LENGTH
+	}
+}

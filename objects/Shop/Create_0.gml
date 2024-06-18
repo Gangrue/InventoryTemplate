@@ -1,0 +1,1 @@
+shop_id = "test_shop";
